@@ -9,7 +9,6 @@ public class Projectil : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
     }
-
     void Update()
     {
         if (rb != null)
@@ -21,6 +20,4 @@ public class Projectil : MonoBehaviour
     {
         Destroy(gameObject);
     }
-
-
 }
